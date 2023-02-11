@@ -1,0 +1,64 @@
+body {
+  background-color: lightblue;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+form {
+  background-color: blue;
+  margin: 3.125rem auto 0 auto;
+  width: 70%
+}
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="submit"] , select {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 0.75rem;
+  margin-bottom: 35px
+}
+textarea {
+  width: 100%;
+}
+div {
+  display: block;
+  margin: 0 15px;;
+  padding-top: 15px;
+}
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+p {
+  font-size: 1.125rem;
+}
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+h1, p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+input,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
